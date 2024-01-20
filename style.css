@@ -1,7 +1,7 @@
 :root {
-  --primary-light: #2CB9C4;
-  --primary: #1A636E;
-  --primary-dark: #001314;
+  --primary-light: #F5F5F7;
+  --primary: #86868B;
+  --primary-dark: #000000;
 }
 
 html, body {
@@ -17,7 +17,7 @@ main {
 }
 
 #headline {
-  width: 80vw;
+  width: 83vw;
   font-family: 'Heebo', sans-serif;
   font-size: 9vw;
   margin-bottom: 10vw;
@@ -34,8 +34,8 @@ main {
 }
 #links a {
   color: var(--primary);
-  font-size: 10vw;
-  margin: 0 4vw;
+  font-size: 13vw;
+  margin: 0 7vw;
   outline: none;
   transition: 0.2s;
 }
@@ -49,19 +49,19 @@ main {
     margin-bottom: 11vh;
   }
   #links a {
-    font-size: 11vh;
-    margin: 0 5vh;
+    font-size: 14vh;
+    margin: 0 10vh;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   #headline {
-    width: 60vw;
-    font-size: 4.3vw;
-    margin-bottom: 4.8vw;
+    width: 42vw;
+    font-size: 3vw;
+    margin-bottom: 4vw;
   }
   #links a {
-    font-size: 4.8vw;
-    margin: 0 1.8vw;
+    font-size: 4vw;
+    margin: 0 3vw;
   }
 }
