@@ -17,9 +17,11 @@ main {
 }
 
 #headline {
-  width: 83vw;
-  font-family: 'Heebo', sans-serif;
-  font-size: 9vw;
+  width: 80vw;
+  font-family: 'SF Pro Display', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 8vw;
+  font-weight: 600;
+  line-height: 1.5;
   margin-bottom: 10vw;
 }
 #title {
@@ -45,7 +47,7 @@ main {
 
 @media only screen and (orientation: landscape) {
   #headline {
-    font-size: 10vh;
+    font-size: 11vh;
     margin-bottom: 11vh;
   }
   #links a {
@@ -56,7 +58,7 @@ main {
 
 @media only screen and (min-width: 1024px) {
   #headline {
-    width: 42vw;
+    width: 45vw;
     font-size: 3vw;
     margin-bottom: 4vw;
   }
